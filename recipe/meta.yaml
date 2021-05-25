@@ -16,14 +16,12 @@ build:
   noarch: generic
   merge_build_host: True  # [win]
   number: 1002
-  noarch: generic
   rpaths:
     - lib/R/lib/
     - lib/
 
 requirements:
   build:
-
   host:
     - r-base
   run:
@@ -36,7 +34,7 @@ test:
 
 about:
   home: https://github.com/andreyshabalin/filematrix
-  license: LGPL-3
+  license: LGPL-3.0-only
   summary: Interface for working with large matrices stored in files, not in computer memory.
     Supports multiple non-character data types (double, integer, logical and raw) of
     various sizes (e.g. 8 and 4 byte real values). Access to parts of the matrix is
@@ -50,10 +48,3 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
-    - dbast
-    - dpryan79
