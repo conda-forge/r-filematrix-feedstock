@@ -1,11 +1,11 @@
-About r-filematrix
-==================
+About r-filematrix-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-filematrix-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/andreyshabalin/filematrix
 
 Package license: LGPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-filematrix-feedstock/blob/main/LICENSE.txt)
 
 Summary: Interface for working with large matrices stored in files, not in computer memory. Supports multiple non-character data types (double, integer, logical and raw) of various sizes (e.g. 8 and 4 byte real values). Access to parts of the matrix is done by indexing,  exactly as with usual R matrices. Supports very large matrices. Tested on multi-terabyte matrices. Allows for more than 2^32 rows or columns. Allows for quick addition of extra columns to a filematrix. Cross-platform as the package has R code only.
 
